@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Portfolio Mark 2</title>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid bg-dark">
 
-        <nav class="navbar narbar-expand-md navbar-dark bg-dark">
-            <div class="container-xxl">
-              <a href="#intro" class="navbar-brand">
+        <nav class="navbar narbar-expand-md navbar-dark bg-dark ">
+            <div class="container bg-dark">
+              <a href="#i" class="navbar-brand">
                 <span class="fw-bold text-secondary">
                     <img src="/images/MJ.webp" alt="logo" width="30" height="30" class="d-inline-block align-text-top">
                     MARSHALINO JANKOWSKI
@@ -31,12 +32,25 @@
                       <li class="nav-item">
                         <a class="nav-link" href="index.html" class="btn btn-dark">Home</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="about.html" class="btn btn-dark">About</a>     
-                    </li>
-                    <li>
-                        <a class="nav-link" href="resume.html" class="btn btn-dark">Resume</a>
-                    </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#aboutme">About you</a></li>
+                          <li><a class="dropdown-item" href="#skills">Skills</a></li>
+                          <li><a class="dropdown-item" href="#testimonial">Testimonials</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Resume
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#education">Education</a></li>
+                          <li><a class="dropdown-item" href="#workexperience">Work Experience</a></li>
+                        </ul>
+                      </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html" class="btn btn-dark">Contact</a>     
                     </li>
@@ -45,15 +59,533 @@
                     </li>
                   </ul>
             </div>
-          </nav>
-          <h1>Portfolio Mark 2</h1>
-        <p class=" fw-bold lead text-center text-white bg-dark">WELCOME TO THE HOME PAGE OF MY PORTFOLIO
-            MY NAME IS MARSHALINO JANKOWSKI
-            I LOVE CODING</p>
+        </nav>
 
-            <section id="#intro">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero quas et adipisci soluta nemo. Facere aperiam odit, sunt fugiat, possimus, illo error pariatur modi illum eum ipsa dolore voluptatem. Dolorem.
-            </section>
+        <section id="aboutme">
+            <div class="container-fluid text-center bg-dark text-white py-1 my-2 pb-3 p-5">
+                <h1 class="display-4">
+                    About Me
+                </h1>
+                <div class="row text-start bg-dark">
+                  <div class="col-md-5 my-4 text-center py-3 my-3 pb-3 bg-dark">
+                    <img src="/images/about me/LS2.JPG" alt="Marshalino" height="450" width="300">
+                  </div>
+                  <div class="col-md-6 bg-dark">
+                    <h3 class="display-7">Hi there! My Name is Marshalino Jankowski</h3>
+                    <br>
+                    <h4>
+                        Web Developer
+                    </h4>
+                    <div>
+                        <p class="lead">
+                            My name is Marshalino Jankowski, I was born and raised in Cape Town, South Africa and I am 24 years old. Some of the things I like to do when I have free time are playing games like Call of Duty, Assassins creed and Fifa. I'm a giant movie and series fanatic with some of my favourite movies being Watchmen, Fight Club and the Avengers Saga. I enjoy taking my morning runs with playlists from G-Eazy, Skillet and Eminem, I love football and running, with Chelsea FC being my favourite team.
+                            </p>
+                            <p class="lead">Birthday : 11/01/1998 </p>
+                            <p class="lead">Contact Number : 0618445578</p>
+                            <p class="lead">Email Address : Swiftyblue11@gmail.com</p>
+                            <p class="lead">Location : Cape Town</p>
+                            <p class="lead">Language : English</p>
+                            <p class="lead">Hobbies : Soccer, Gaming and Music</p>
+                            <a href="#" class="btn btn-primary">Download CV</a>
+                            <a href="https://github.com/Tempestfury11" class="btn btn-primary">GitHub</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+
+        <section id="skills">
+              <div class="container-fluid bg-dark text-start text-white border-light p-5">
+                    <h2 class="display-4 text-white text-center">My Skills</h2>
+                  <div class="row bg-dark text-start border-light">
+                    <div class="col-md-4">
+                        <H2>GAMING</H2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                              85%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <H2>JAVASCRIPT</H2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="95"
+                            aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                              95%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <H2>STAND UP</H2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                            aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                              65%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <H2>HTML</H2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80"
+                            aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                              80%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <H2>GUITAR</H2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="65"
+                            aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                              65%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <H2>SINGING</H2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60"
+                            aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                              60%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <H2>CSS</H2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                            aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                              70%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <H2>SOCCER</H2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="95"
+                            aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                              95%
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <H2>STAMINA</H2>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="95"
+                            aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                              95%
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </section>
+
+          <section id="testimonial">
+            <div class="container-fluid text-white bg-dark text-center p-5">
+                <h2 class="display-4 text-white">Testimonials</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active circle bg-light" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="circle bg-light"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="circle bg-light" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner pb-5">
+                  <div class="carousel-item active">
+                    <img src="/images/testimonials/Mark bowers.jpg" class="rounded-circle" alt="Mark Bowers" height="200px" width="200px">
+                    <h5 class="display-5 text-white">Mark Bowers</h5>
+                    <p class="lead text-white">
+                      I know Marshalino Jankowski, as a child growing up in front of 
+                      me. Marshalino is a person with value, stature and very good 
+                      manners. He presents a true gentleman position and shows a lot 
+                      of integrity. He is a hardworker, tries his very best in every task 
+                      given to him and is able to complete it before the actual date or 
+                      time due.
+                      In church Marshalino showed respect, compassion and willing to 
+                      help his fellow brethren or even outsider in whatever is needed. 
+                      He never looks down on people and will walk the extra mile with 
+                      someone in need of help that struggles with social issues.
+                      I therefore commend Marshalino for any job given to him. I know 
+                      due to his potential, diligentness and talents he will succeed. He 
+                      also has vision and I know he will have input as well.
+                      May Marshalino Jankowski be given a chance to this experience 
+                      because I assure you he will be eager to learn.
+                      I thank you
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/testimonials/Cassidy.JPG" class="rounded-circle" alt="Cassidy Manuel" height="200px" width="200px">
+                    <h5 class="display-5 text-white">Cassidy Manuel</h5>
+                    <p class="lead text-white">
+                        Cassidy Manuel - "Marshalino Jankowski is one of the most hardworking people i know that was blessed with a never give up attitude. He has an infectious smile and he always makes the people around him laugh with making light out of stressful situations."
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/testimonials/Monique.JPG" class="rounded-circle " alt="Monique Dampies" height="200px" width="200px">
+                    <h5 class="display-5 text-white">Monique Dampies</h5>
+                    <p class="lead text-white">
+                        Monique Dampies - "Marshalino is a very committed individual and will be a benefit to anything he is a part of. Marshalino does not let allow any circumstances to disadvantage him."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section id="workexperience">
+            <div class="container-fluid text-white bg-dark text-center p-5">
+                <h2 class="display-4 text-white">Work Experience</h2>
+                <section id="Jobs">
+                    <div>
+                      <div class="jobs-container">
+                        <img data-bs-toggle="modal" data-bs-target="#woolworths" src="/images/jobs/woolworths.webp" />
+                        <img data-bs-toggle="modal" data-bs-target="#woolworths2"src="/images/jobs/woolworths2.webp" />
+                        <img data-bs-toggle="modal" data-bs-target="#merchants2" src="/images/jobs/Merchants2.png" />
+                        <img data-bs-toggle="modal" data-bs-target="#takealot" src="/images/jobs/Takealot.png" />
+                        <img data-bs-toggle="modal" data-bs-target="#capita" src="/images/jobs/capita.png" />
+                        <img data-bs-toggle="modal" data-bs-target="#cx" src="/images/jobs/CX.jpg" />
+                      </div>
+                    </div>
+                  </section>
+                  <!-- Modal -->
+                  <div
+                  class="modal fade"
+                  id="woolworths"
+                  tabindex="-1"
+                  aria-labelledby="woolworths"
+                  aria-hidden="true"
+                  >
+                  <div class="modal-dialog mw-100 p-5">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="woolworths">Woolworths</h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <img
+                                class="img-fluid"
+                                src="/images/jobs/woolworths.webp"
+                              />
+                            </div>
+                            <div class="col-md-6 text-dark">
+                              <p>
+                                <h3><strong>Woolworths Store Assistant</strong></h3>
+                                <br>
+                                <h3>Duties</h3>
+                              Manage stock control, providing customer service through sales, facilitate transactions.
+                              <br>
+                          <h3>Duration</h3>
+                          June 2017 to January 2018
+                          <br>
+                          <h3>Location</h3>
+                          Milner Road, Rhondebosch
+                          <br>
+                          <h3>References</h3>
+                          Jody Adams(0796781441) & Luke Van Rooy(0820526003)
+                          <br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  
+                  <!-- Modal2 -->
+                  <div
+                  class="modal fade"
+                  id="woolworths2"
+                  tabindex="-1"
+                  aria-labelledby="woolworths2"
+                  aria-hidden="true"
+                  >
+                  <div class="modal-dialog mw-100 p-5">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="woolworths2">Woolworths</h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <img
+                                class="img-fluid"
+                                src="/images/jobs/woolworths2.webp"
+                              />
+                            </div>
+                            <div class="col-md-6 text-dark">
+                              <p>
+                                <h3><strong>Woolworths Store Assistant</strong></h3>
+                                <br>
+                                <h3>Duties</h3>
+                                Manage stock control, providing customer service through sales, facilitate transactions. 
+                              <br>
+                          <h3>Duration</h3>
+                          November 2018 to January 2019
+                          <br>
+                          <h3>Location</h3>
+                          Kroombrom, Athlone
+                          <br>
+                          <h3>References</h3>
+                          Jody Adams(0796781441) & Luke Van Rooy(0820526003)
+                          <br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  
+                  <!-- Modal3 -->
+                  <div
+                  class="modal fade"
+                  id="merchants2"
+                  tabindex="-1"
+                  aria-labelledby="merchants2"
+                  aria-hidden="true"
+                  >
+                  <div class="modal-dialog mw-100 p-5">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="merchants2">Merchants</h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <img
+                                class="img-fluid"
+                                src="/images/jobs/Merchants2.png"
+                              />
+                            </div>
+                            <div class="col-md-6 text-dark">
+                              <p>
+                                <h3><strong>Merchants</strong></h3>
+                                <br>
+                                <h3>Duties</h3>
+                                Manage Inbound and outbound calls, providing customer service
+                                through emails, LiveChat and Social Media
+                              <br>
+                          <h3>Duration</h3>
+                          January 2019 to June 2020
+                          <br>
+                          <h3>Location</h3>
+                          the District Building, Woodstock
+                          <br>
+                          <h3>References</h3>
+                          Ralton Pillay(084 066 7197) and Abdul Mutalib(083 882 1059)
+                          <br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+                  <!-- Modal4 -->
+                  <div
+                  class="modal fade"
+                  id="takealot"
+                  tabindex="-1"
+                  aria-labelledby="takealot"
+                  aria-hidden="true"
+                  >
+                  <div class="modal-dialog mw-100 p-5">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="takealot">Takealot</h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <img
+                                class="img-fluid"
+                                src="/images/jobs/Takealot.png"
+                              />
+                            </div>
+                            <div class="col-md-6 text-dark">
+                              <p>
+                                <h3><strong>Takealot</strong></h3>
+                                <br>
+                                <h3>Duties</h3>
+                                Manage Inbound and outbound calls, providing customer service 
+                                through emails, managing customer queries and accounts
+                                <br>
+                                <h3>Duration</h3>
+                                June 2020 to August 2020
+                                <br>
+                                <h3>Location</h3>
+                                Remote
+                                <br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+                  <!-- Modal5 -->
+                  <div
+                  class="modal fade"
+                  id="capita"
+                  tabindex="-1"
+                  aria-labelledby="capita"
+                  aria-hidden="true"
+                  >
+                  <div class="modal-dialog mw-100 p-5">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="capita">Capita</h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <img
+                                class="img-fluid"
+                                src="/images/jobs/capita.png"
+                              />
+                            </div>
+                            <div class="col-md-6 text-dark">
+                              <p>
+                                <h3><strong>Capita</strong></h3>
+                                <br>
+                                <h3>Duties</h3>
+                                Manage Inbound and outbound calls, providing customer service 
+                                through emails, managing customer queries and accounts
+                                <br>
+                                <h3>Duration</h3>
+                                January 2021 to May 2021
+                                <br>
+                                <h3>Location</h3>
+                                Cape Town
+                                <br>
+                                <h3>References</h3>
+                                Savanna Ensil(063 155 3915)
+                                    <br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+
+                  <!-- Modal6 -->
+                  <div
+                  class="modal fade"
+                  id="cx"
+                  tabindex="-1"
+                  aria-labelledby="cx"
+                  aria-hidden="true"
+                  >
+                  <div class="modal-dialog mw-100 p-5">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="cx">CX-International</h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <img
+                                class="img-fluid"
+                                src="/images/jobs/CX.jpg"
+                              />
+                            </div>
+                            <div class="col-md-6 text-dark">
+                              <p>
+                                <h2>CX-International Customer Service Representative</h2>
+                                <h3>Duties</h3>
+                                Manage Inbound and outbound calls, providing customer service 
+                                through emails, managing customer queries and accounts
+                                <br>
+                                <h3>Duration</h3>
+                                July 2021 to April 2022
+                                <br>
+                                <h3>Location</h3>
+                                Bellville
+                                <br>
+                                <h3>References</h3>
+                                Keenan Stuurman(0718570531)
+                                <br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <br>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+        </section>
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     </div>
