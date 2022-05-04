@@ -16,3 +16,8 @@
 #img-jobs{
     width: 50%;
 }
+#testimonial{
+    background: url(../images/testimonials/guitar2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
