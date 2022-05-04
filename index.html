@@ -11,57 +11,55 @@
 <body>
     <div class="container-fluid bg-dark">
 
-        <nav class="navbar narbar-expand-md navbar-dark bg-dark ">
-            <div class="container bg-dark">
-              <a href="#i" class="navbar-brand">
-                <span class="fw-bold text-secondary">
-                    <img src="/images/MJ.webp" alt="logo" width="30" height="30" class="d-inline-block align-text-top">
-                    MARSHALINO JANKOWSKI
-                </span>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/images/MJ.webp" alt="logo" width="30" height="30" class="d-inline-block align-text-top">
+        </a>
+        <a class="navbar-brand" href="#">Marshalino Jankowski</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About
               </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#aboutme">About Me</a></li>
+                <li><a class="dropdown-item" href="#skills">Skills</a></li>
+                <li><a class="dropdown-item" href="#testimonial">Testimonials</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Resume
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Education</a></li>
+                <li><a class="dropdown-item" href="#workexperience">Work Experience</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contact
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Form</a></li>
+                <li><a class="dropdown-item" href="#">Social Media Accounts</a></li>
+                <li><a class="dropdown-item" href="#">Contact Details</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-              data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" 
-              aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <div class="collapse navbar-collapse justify-content-end align-center" 
-              id="main-nav">
-                  <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link" href="index.html" class="btn btn-dark">Home</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            About
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <li><a class="dropdown-item" href="#aboutme">About you</a></li>
-                          <li><a class="dropdown-item" href="#skills">Skills</a></li>
-                          <li><a class="dropdown-item" href="#testimonial">Testimonials</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Resume
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <li><a class="dropdown-item" href="#education">Education</a></li>
-                          <li><a class="dropdown-item" href="#workexperience">Work Experience</a></li>
-                        </ul>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html" class="btn btn-dark">Contact</a>     
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="projects.html" class="btn btn-dark">Projects</a>   
-                    </li>
-                  </ul>
-            </div>
-        </nav>
-
-        <section id="aboutme">
+              <section id="aboutme">
             <div class="container-fluid text-center bg-dark text-white py-1 my-2 pb-3 p-5">
                 <h1 class="display-4">
                     About Me
@@ -192,6 +190,7 @@
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" class="circle bg-light"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="circle bg-light" aria-label="Slide 3"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="circle bg-light" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="circle bg-light" aria-label="Slide 5"></button>
                 </div>
                 <div class="carousel-inner pb-5">
                   <div class="carousel-item active">
@@ -231,10 +230,17 @@
                     </p>
                   </div>
                   <div class="carousel-item">
-                    <img src="/images/testimonials/Mikhail.JPG" class="rounded-circle" alt="Cassidy Manuel" height="200px" width="200px">
+                    <img src="/images/testimonials/Mikhail.JPG" class="rounded-circle" alt="Mikhail Thomas" height="200px" width="200px">
                     <h5 class="display-5 text-white">Mikhail Thomas</h5>
                     <p class="lead text-white">
                         Cassidy Manuel - "I was in a class with Marshalino for a while and his writing and research skills are truly phenomenal he brings a positive energy to all group activities and is always willing to help his peers when he can. He is always excels at work he is given and has excellent time management skills he will be a valuable asset to any team he is part of."
+                    </p>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/testimonials/Emile.JPG" class="rounded-circle" alt="Emile Van Wyk" height="200px" width="200px">
+                    <h5 class="display-5 text-white">Emile Van Wyk</h5>
+                    <p class="lead text-white">
+                        Emile Van Wyk - "Marshalino Jankowski, a talented and diligent individual with a can do attitude, in stressful situations he jumps to action and takes charge. In my time with him I've seen him put in the effort to improve himself and his work which any team could appreciate. He is an well put together guy easy going and fun to be around but who can take initiative when needed."
                     </p>
                   </div>
                 </div>
@@ -248,12 +254,12 @@
                 <section id="Jobs">
                     <div>
                       <div class="jobs-container">
-                        <img data-bs-toggle="modal" data-bs-target="#woolworths" src="/images/jobs/woolworths.webp" />
-                        <img data-bs-toggle="modal" data-bs-target="#woolworths2"src="/images/jobs/woolworths2.webp" />
-                        <img data-bs-toggle="modal" data-bs-target="#merchants2" src="/images/jobs/Merchants2.png" />
-                        <img data-bs-toggle="modal" data-bs-target="#takealot" src="/images/jobs/Takealot.png" />
-                        <img data-bs-toggle="modal" data-bs-target="#capita" src="/images/jobs/capita.png" />
-                        <img data-bs-toggle="modal" data-bs-target="#cx" src="/images/jobs/CX.jpg" />
+                        <img id="img-jobs" data-bs-toggle="modal" data-bs-target="#woolworths" src="/images/jobs/woolworths.webp" />
+                        <img id="img-jobs" data-bs-toggle="modal" data-bs-target="#woolworths2"src="/images/jobs/woolworths2.webp" />
+                        <img id="img-jobs" data-bs-toggle="modal" data-bs-target="#merchants2" src="/images/jobs/Merchants2.png" />
+                        <img id="img-jobs" data-bs-toggle="modal" data-bs-target="#takealot" src="/images/jobs/Takealot.png" />
+                        <img id="img-jobs" data-bs-toggle="modal" data-bs-target="#capita" src="/images/jobs/capita.png" />
+                        <img id="img-jobs" data-bs-toggle="modal" data-bs-target="#cx" src="/images/jobs/CX.jpg" />
                       </div>
                     </div>
                   </section>
@@ -355,7 +361,7 @@
                           Kroombrom, Athlone
                           <br>
                           <h3>References</h3>
-                          Jody Adams(0796781441) & Luke Van Rooy(0820526003)
+                          Sharon(0682578605)
                           <br>
                               </p>
                             </div>
@@ -594,6 +600,57 @@
                   </div>
         </section>
 
+        <section id="contact">
+          <div class="container-fluid text-white bg-dark text-center p-5">
+            <h2 class="text-center text-light"><strong>Leave Me A Message</strong></h2>
+            <form class="w-50 container-fluid" action="https://formspree.io/f/xdobpvnz" method="post">
+                <!-- name -->
+                <div class="row my-2">
+                    <label for="name" class="col-md-2 col-form-label-lg">Name:</label>
+                    <div class="col-8">
+                        <input id="name" type="text" name="name" placeholder="Enter your name " class="form-control">
+                    </div>
+                </div>
+                <!-- surname -->
+                <div class="row my-2">
+                    <label for="surname" class="col-md-2 col-form-label-lg">Surname:</label>
+                    <div class="col-8">
+                        <input id="surname" type="text" name="surname" placeholder="Enter your surname " class="form-control">
+                    </div>
+                </div>
+                <!-- contact number -->
+                <div class="row my-2">
+                    <label for="contact number" class="col-md-2 col-form-label-lg">Number:</label>
+                    <div class="col-8">
+                        <input id="contact number" type="number" name="contact number" placeholder="Enter your contact number" class="form-control">
+                    </div>
+                </div>
+                <div class="row my-2">
+                  <label for="Address" class="col-md-2 col-form-label-lg">Address:</label>
+                  <div class="col-8">
+                      <input id="Address" type="text" name="Address" placeholder="Enter your email address " class="form-control">
+                  </div>
+                <!-- message -->
+                <div class="row my-2">
+                    <label for="message" class="col-md-2 col-form-label-lg">Message: </label>
+                    <div class="col-8 form-floating">
+                        <textarea name="message" id="message" class="h-100 w-100">
+                        </textarea>
+                    </div>
+                </div>
+                <!-- submit btn -->
+                <div class="row my-2">
+                    <label class="col-md-2 col-form-label-lg"></label>
+                    <div class="col-8">
+                        <input type="submit" value="Submit"
+                        class="btn btn-success w-100">
+                    </div>
+                </div>
+            </form>
+        </div>
+        </section>
+
+    </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
     </div>
